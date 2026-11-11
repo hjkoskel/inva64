@@ -1,0 +1,326 @@
+Modules list:
+-------------
+main.o:
+    CODE              Offs=000000  Size=00015E  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000058  Align=00001  Fill=0000
+play.o:
+    CODE              Offs=00015E  Size=0000C0  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000006  Align=00001  Fill=0000
+samples.o:
+    RODATA            Offs=000058  Size=000060  Align=00001  Fill=0000
+    SAMPLES           Offs=000000  Size=00BF5D  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(_cursor.o):
+    BSS               Offs=000006  Size=000001  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(addysp.o):
+    CODE              Offs=00021E  Size=00000E  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(aslax1.o):
+    CODE              Offs=00022C  Size=000008  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(bordercolor.o):
+    CODE              Offs=000234  Size=000008  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(callmain.o):
+    CODE              Offs=00023C  Size=000017  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000004  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(cgetc.o):
+    CODE              Offs=000253  Size=000047  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(clrscr.o):
+/usr/share/cc65/lib/c64.lib(color.o):
+    CODE              Offs=00029A  Size=000010  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(condes.o):
+    CODE              Offs=0002AA  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=000004  Size=000025  Align=00001  Fill=0000
+    ONCE              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(conio.o):
+/usr/share/cc65/lib/c64.lib(cputc.o):
+    CODE              Offs=0002B6  Size=00006F  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(cputs.o):
+    CODE              Offs=000325  Size=000023  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(crt0.o):
+    STARTUP           Offs=000000  Size=000033  Align=00001  Fill=0000
+    ONCE              Offs=00000C  Size=00001A  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=00001C  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(cursor.o):
+    CODE              Offs=000348  Size=00000A  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(decax1.o):
+    CODE              Offs=000352  Size=000007  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(decaxy.o):
+    CODE              Offs=000359  Size=000009  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(decsp1.o):
+    CODE              Offs=000362  Size=000009  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(decsp2.o):
+    CODE              Offs=00036B  Size=00000D  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(exehdr.o):
+    EXEHDR            Offs=000000  Size=00000C  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(get_tv.o):
+    CODE              Offs=000378  Size=000006  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(gotox.o):
+    CODE              Offs=00037E  Size=000005  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(gotoxy.o):
+    CODE              Offs=000383  Size=00000D  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(incsp4.o):
+    CODE              Offs=000390  Size=000005  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(kernal.o):
+/usr/share/cc65/lib/c64.lib(kplot.o):
+    CODE              Offs=000395  Size=00000B  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(ldaxi.o):
+    CODE              Offs=0003A0  Size=00000D  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(loadaddr.o):
+    LOADADDR          Offs=000000  Size=000002  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(mulax10.o):
+    CODE              Offs=0003AD  Size=000019  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(popa.o):
+    CODE              Offs=0003C6  Size=00000C  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(pusha.o):
+    CODE              Offs=0003D2  Size=000016  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(pushax.o):
+    CODE              Offs=0003E8  Size=00001A  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(status.o):
+/usr/share/cc65/lib/c64.lib(wherex.o):
+    CODE              Offs=000402  Size=000005  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(zerobss.o):
+    CODE              Offs=000407  Size=000023  Align=00001  Fill=0000
+/usr/share/cc65/lib/c64.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000002  00001B  00001A  00001
+LOADADDR              0007FF  000800  000002  00001
+EXEHDR                000801  00080C  00000C  00001
+STARTUP               00080D  00083F  000033  00001
+CODE                  000840  000C69  00042A  00001
+RODATA                000C6A  000D21  0000B8  00001
+DATA                  000D22  000D4A  000029  00001
+INIT                  000D4B  000D66  00001C  00001
+SAMPLES               000D67  00CCC3  00BF5D  00001
+BSS                   00CCC4  00CCCA  000007  00001
+ONCE                  00CCC4  00CCE9  000026  00001
+
+
+Exports list by name:
+---------------------
+BSOUT                     00FFD2 RLA    CURS_X                    0000D3 RLZ    
+CURS_Y                    0000D6 RLZ    PLOT                      000BD5 RLA    
+ST                        000090 RLZ    __BSS_RUN__               00CCC4 RLA    
+__BSS_SIZE__              000007 REA    __CONSTRUCTOR_COUNT__     000000 REA    
+__CONSTRUCTOR_TABLE__     00CCEA RLA    __DESTRUCTOR_COUNT__      000000 REA    
+__DESTRUCTOR_TABLE__      000D22 RLA    __EXEHDR__                000001 REA    
+__HEADER_LAST__           00080D RLA    __HIMEM__                 00D000 REA    
+__LOADADDR__              000001 REA    __MAIN_SIZE__             00C7F3 REA    
+__MAIN_START__            00080D RLA    __ONCE_RUN__              00CCC4 RLA    
+__STACKSIZE__             000100 REA    __STARTUP__               000001 REA    
+_bgcolor                  000AE2 RLA    _bordercolor              000A74 RLA    
+_cgetc                    000A93 RLA    _clrscr                   00E544 REA    
+_codebook                 000D67 RLA    _cputc                    000AFB RLA    
+_cputs                    000B6F RLA    _cursor                   000B88 RLA    
+_get_tv                   000BB8 RLA    _gotox                    000BBE RLA    
+_main                     0008FF RLA    _play                     0009C6 RLA    
+_play_init                00099E RLA    _play_latch               00CCC8 RLA    
+_play_len                 00CCC6 RLA    _play_ptr                 00CCC4 RLA    
+_sample_addr              000CC2 RLA    _sample_len               000CF2 RLA    
+_textcolor                000ADA RLA    _wherex                   000C42 RLA    
+addysp                    000A5F RLA    aslax1                    000A6C RLA    
+callmain                  000A7C RLA    cursor                    00CCCA RLA    
+decax1                    000B92 RLA    decaxy                    000B99 RLA    
+decsp1                    000BA2 RLA    decsp2                    000BAB RLA    
+donelib                   000AEA RLA    gotoxy                    000BC3 RLA    
+incsp4                    000BD0 RLA    initlib                   00CCC4 RLA    
+ldaxi                     000BE0 RLA    mulax10                   000BED RLA    
+plot                      000B51 RLA    popa                      000C06 RLA    
+ptr1                      00000A RLZ    ptr2                      00000C RLZ    
+pusha                     000C16 RLA    pushax                    000C2C RLA    
+sp                        000002 RLZ    tmp1                      000012 RLZ    
+zerobss                   000C47 RLA    
+
+
+Exports list by value:
+----------------------
+__CONSTRUCTOR_COUNT__     000000 REA    __DESTRUCTOR_COUNT__      000000 REA    
+__EXEHDR__                000001 REA    __LOADADDR__              000001 REA    
+__STARTUP__               000001 REA    sp                        000002 RLZ    
+__BSS_SIZE__              000007 REA    ptr1                      00000A RLZ    
+ptr2                      00000C RLZ    tmp1                      000012 RLZ    
+ST                        000090 RLZ    CURS_X                    0000D3 RLZ    
+CURS_Y                    0000D6 RLZ    __STACKSIZE__             000100 REA    
+__HEADER_LAST__           00080D RLA    __MAIN_START__            00080D RLA    
+_main                     0008FF RLA    _play_init                00099E RLA    
+_play                     0009C6 RLA    addysp                    000A5F RLA    
+aslax1                    000A6C RLA    _bordercolor              000A74 RLA    
+callmain                  000A7C RLA    _cgetc                    000A93 RLA    
+_textcolor                000ADA RLA    _bgcolor                  000AE2 RLA    
+donelib                   000AEA RLA    _cputc                    000AFB RLA    
+plot                      000B51 RLA    _cputs                    000B6F RLA    
+_cursor                   000B88 RLA    decax1                    000B92 RLA    
+decaxy                    000B99 RLA    decsp1                    000BA2 RLA    
+decsp2                    000BAB RLA    _get_tv                   000BB8 RLA    
+_gotox                    000BBE RLA    gotoxy                    000BC3 RLA    
+incsp4                    000BD0 RLA    PLOT                      000BD5 RLA    
+ldaxi                     000BE0 RLA    mulax10                   000BED RLA    
+popa                      000C06 RLA    pusha                     000C16 RLA    
+pushax                    000C2C RLA    _wherex                   000C42 RLA    
+zerobss                   000C47 RLA    _sample_addr              000CC2 RLA    
+_sample_len               000CF2 RLA    __DESTRUCTOR_TABLE__      000D22 RLA    
+_codebook                 000D67 RLA    __MAIN_SIZE__             00C7F3 REA    
+__BSS_RUN__               00CCC4 RLA    __ONCE_RUN__              00CCC4 RLA    
+_play_ptr                 00CCC4 RLA    initlib                   00CCC4 RLA    
+_play_len                 00CCC6 RLA    _play_latch               00CCC8 RLA    
+cursor                    00CCCA RLA    __CONSTRUCTOR_TABLE__     00CCEA RLA    
+__HIMEM__                 00D000 REA    _clrscr                   00E544 REA    
+BSOUT                     00FFD2 RLA    
+
+
+Imports list:
+-------------
+BSOUT (kernal.o):
+    crt0.o                    c64/crt0.s(10)
+CURS_X (conio.o):
+    wherex.o                  cbm/wherex.s(8)
+    gotoxy.o                  cbm/gotoxy.s(9)
+    gotox.o                   cbm/gotox.s(9)
+CURS_Y (conio.o):
+    gotoxy.o                  cbm/gotoxy.s(9)
+PLOT (kplot.o):
+    cputc.o                   c64/cputc.s(11)
+ST (status.o):
+    crt0.o                    c64/crt0.s(13)
+__BSS_RUN__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    zerobss.o                 common/zerobss.s(8)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(18)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  runtime/condes.s(19)
+__EXEHDR__ (exehdr.o):
+    [linker generated]        src/soundboard.cfg(8)
+__HEADER_LAST__ ([linker generated]):
+    [linker generated]        src/soundboard.cfg(16)
+    [linker generated]        src/soundboard.cfg(16)
+__HIMEM__ ([linker generated]):
+    [linker generated]        src/soundboard.cfg(17)
+    [linker generated]        src/soundboard.cfg(16)
+__LOADADDR__ (loadaddr.o):
+    [linker generated]        src/soundboard.cfg(7)
+__MAIN_SIZE__ ([linker generated]):
+    crt0.o                    c64/crt0.s(11)
+__MAIN_START__ ([linker generated]):
+    crt0.o                    c64/crt0.s(11)
+__ONCE_RUN__ ([linker generated]):
+    [linker generated]        src/soundboard.cfg(17)
+    [linker generated]        src/soundboard.cfg(17)
+__STACKSIZE__ ([linker generated]):
+    [linker generated]        src/soundboard.cfg(17)
+__STARTUP__ (crt0.o):
+    main.o                    src/main.s(13)
+_bgcolor (color.o):
+    main.o                    src/main.s(23)
+_bordercolor (bordercolor.o):
+    main.o                    src/main.s(24)
+_cgetc (cgetc.o):
+    main.o                    src/main.s(20)
+_clrscr (clrscr.o):
+    main.o                    src/main.s(15)
+_codebook (samples.o):
+    play.o                    src/play.s(23)
+_cputc (cputc.o):
+    cputs.o                   conio/cputs.s(9)
+    main.o                    src/main.s(18)
+_cputs (cputs.o):
+    main.o                    src/main.s(19)
+_cursor (cursor.o):
+    main.o                    src/main.s(21)
+_get_tv (get_tv.o):
+    main.o                    src/main.s(14)
+_gotox (gotox.o):
+    main.o                    src/main.s(16)
+_main (main.o):
+    callmain.o                runtime/callmain.s(11)
+_play (play.o):
+    main.o                    src/main.s(31)
+_play_init (play.o):
+    main.o                    src/main.s(30)
+_play_latch (play.o):
+    main.o                    src/main.s(29)
+_play_len (play.o):
+    main.o                    src/main.s(28)
+_play_ptr (play.o):
+    main.o                    src/main.s(27)
+_sample_addr (samples.o):
+    main.o                    src/main.s(25)
+_sample_len (samples.o):
+    main.o                    src/main.s(26)
+_textcolor (color.o):
+    main.o                    src/main.s(22)
+_wherex (wherex.o):
+    main.o                    src/main.s(17)
+addysp (addysp.o):
+    incsp4.o                  runtime/incsp4.s(8)
+aslax1 (aslax1.o):
+    main.o                    src/main.s(241)
+callmain (callmain.o):
+    crt0.o                    c64/crt0.s(9)
+cursor (_cursor.o):
+    cursor.o                  conio/cursor.s(8)
+    cgetc.o                   c64/cgetc.s(8)
+decax1 (decax1.o):
+    main.o                    src/main.s(241)
+decaxy (decaxy.o):
+    main.o                    src/main.s(241)
+decsp1 (decsp1.o):
+    main.o                    src/main.s(241)
+    main.o                    src/main.s(241)
+decsp2 (decsp2.o):
+    main.o                    src/main.s(241)
+donelib (condes.o):
+    crt0.o                    c64/crt0.s(8)
+gotoxy (gotoxy.o):
+    cputs.o                   conio/cputs.s(9)
+    cputc.o                   c64/cputc.s(10)
+incsp4 (incsp4.o):
+    main.o                    src/main.s(241)
+initlib (condes.o):
+    crt0.o                    c64/crt0.s(8)
+ldaxi (ldaxi.o):
+    main.o                    src/main.s(241)
+mulax10 (mulax10.o):
+    main.o                    src/main.s(241)
+plot (cputc.o):
+    gotoxy.o                  cbm/gotoxy.s(8)
+    gotox.o                   cbm/gotox.s(8)
+popa (popa.o):
+    gotoxy.o                  cbm/gotoxy.s(8)
+ptr1 (zeropage.o):
+    zerobss.o                 common/zerobss.s(9)
+    mulax10.o                 runtime/mulax10.s(9)
+    ldaxi.o                   runtime/ldaxi.s(8)
+    cputs.o                   conio/cputs.s(10)
+    play.o                    src/play.s(24)
+    main.o                    src/main.s(11)
+ptr2 (zeropage.o):
+    play.o                    src/play.s(24)
+pusha (pusha.o):
+    main.o                    src/main.s(241)
+pushax (pushax.o):
+    callmain.o                runtime/callmain.s(11)
+sp (zeropage.o):
+    pushax.o                  runtime/pushax.s(8)
+    addysp.o                  runtime/addysp.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    popa.o                    runtime/popa.s(8)
+    decsp2.o                  runtime/decsp2.s(8)
+    decsp1.o                  runtime/decsp1.s(8)
+    crt0.o                    /home/henri/.cache/yay/cc65/src/cc65-2.19/asminc/zeropage.inc(11)
+    main.o                    src/main.s(10)
+tmp1 (zeropage.o):
+    decaxy.o                  runtime/decaxy.s(8)
+    cputs.o                   conio/cputs.s(10)
+    aslax1.o                  runtime/aslax1.s(8)
+zerobss (zerobss.o):
+    crt0.o                    c64/crt0.s(9)
+
